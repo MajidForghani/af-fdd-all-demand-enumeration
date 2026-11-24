@@ -1,0 +1,9 @@
+{
+  "master_seed": 2026101901,
+  "prng": "Python random.Random (MT19937)",
+  "synthetic_cells": 48,
+  "replications_per_cell": 25,
+  "synthetic_instances": 1200,
+  "sndlib_instances": 72,
+  "total_instances": 1272
+}

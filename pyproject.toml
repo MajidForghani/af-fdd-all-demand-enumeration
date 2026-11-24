@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "af-fdd"
+version = "0.4.1"
+description = "Research prototype for all-level d-minimal-path enumeration with an arc-flow frontier decision diagram"
+requires-python = ">=3.10"
+authors = [{name = "Majid Forghani-elahabad"}, {name = "Wei-Chang Yeh"}]
+license = {text = "MIT"}
+dependencies = ["psutil>=5.9"]
+
+[project.optional-dependencies]
+analysis = ["matplotlib>=3.8", "numpy>=1.26", "pandas>=2.1"]
+test = ["pytest>=8.0"]
+
+[project.scripts]
+af-fdd-validate = "af_fdd.validation:main"
+af-fdd-benchmark = "af_fdd.benchmark:main"
+af-fdd-generate-study = "af_fdd.generate_study:main"
+af-fdd-run-study = "af_fdd.study_runner:main"
+af-fdd-analyze-study = "af_fdd.analyze_study:main"
+af-fdd-analyze-comprehensive = "af_fdd.analyze_comprehensive:main"
+af-fdd-select-calibration = "af_fdd.select_calibration:main"
+af-fdd-generate-challenge = "af_fdd.generate_challenge:main"
+af-fdd-select-challenge = "af_fdd.select_challenge:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+

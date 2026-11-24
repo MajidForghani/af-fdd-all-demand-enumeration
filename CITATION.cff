@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "Please cite the associated manuscript and archived repository release."
+title: "AF-FDD: reproducibility package for all-demand d-minimal-path enumeration"
+type: software
+authors:
+  - family-names: "Forghani-elahabad"
+    given-names: "Majid"
+  - family-names: "Yeh"
+    given-names: "Wei-Chang"
+version: "1.0.0"
+date-released: "2026-11-09"
+license: MIT
+abstract: >-
+  Frozen implementations, benchmark instances, raw process records, validation
+  data and analysis scripts accompanying the AF-FDD all-demand enumeration study.
+

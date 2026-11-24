@@ -1,0 +1,47 @@
+{
+  "design_version": "1.0-frozen",
+  "master_seed": 2026102301,
+  "prng": "Python random.Random (MT19937)",
+  "families_and_sizes": {
+    "layered_path_rich": [
+      22,
+      26,
+      30,
+      34
+    ],
+    "mesh_path_rich": [
+      22,
+      26,
+      30,
+      34
+    ],
+    "dag_dense_path_rich": [
+      22,
+      26,
+      30
+    ],
+    "cyclic_sparse_path_rich": [
+      22,
+      26,
+      30
+    ],
+    "cyclic_dense_path_rich": [
+      10,
+      12,
+      14
+    ]
+  },
+  "capacity_uppers": [
+    2,
+    3,
+    5
+  ],
+  "cells": 51,
+  "pilot_replications_per_cell": 4,
+  "heldout_replications_per_cell": 10,
+  "pilot_instances": 204,
+  "heldout_candidate_instances": 510,
+  "terminal_rule": "source=0 and sink=n-1, fixed by constructive path-rich design",
+  "selection_unit": "entire design cell only; never an individual instance",
+  "prohibition": "held-out records must not be run before pilot-cell selection is frozen"
+}

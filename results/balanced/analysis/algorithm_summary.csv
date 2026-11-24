@@ -1,0 +1,4 @@
+algorithm,instances,complete_solved_instances,common_solved_instances,median_seconds_solved,geomean_seconds_common,median_peak_rss_mib_solved,par2_mean_seconds,ok_runs,timeout_runs,memory_limit_runs,screened_failure_instances,incomplete_pending_instances,error_or_crash_runs
+AF-FDD-v0.2.2,1272,1140,986,0.1773455999999669,0.23111542353712597,20.388671875,130.86819856430822,3420,132,0,132,0,0
+Bai-2021,1272,1121,986,0.10543329999995876,0.12933968240469723,19.51171875,148.66947033018872,3363,110,41,151,0,0
+Yeh-2024,1272,990,986,0.10501529999601189,0.19085489600194744,19.5,269.6339088618711,2970,0,282,282,0,0

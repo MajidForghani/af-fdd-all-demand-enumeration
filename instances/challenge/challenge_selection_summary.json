@@ -1,0 +1,8 @@
+{
+  "pilot_cells": 51,
+  "eligible_cells": 7,
+  "selected_heldout_instances": 70,
+  "output": "study/instances/challenge_selected.jsonl",
+  "audit": "study/instances/challenge_selection_audit.csv",
+  "selection_rule_version": "1.0-frozen-before-pilot"
+}

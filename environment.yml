@@ -1,0 +1,13 @@
+name: af-fdd-reproduction
+channels:
+  - defaults
+dependencies:
+  - python=3.12
+  - matplotlib
+  - numpy
+  - pandas
+  - pip
+  - pip:
+      - psutil>=5.9
+      - pytest>=8.0
+

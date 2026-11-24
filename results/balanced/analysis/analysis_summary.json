@@ -1,0 +1,18 @@
+{
+  "raw_rows": 10318,
+  "instances": 1272,
+  "expected_repetitions": 3,
+  "algorithms": [
+    "AF-FDD-v0.2.2",
+    "Bai-2021",
+    "Yeh-2024"
+  ],
+  "duplicate_keys": 0,
+  "complete_common_solved_instances": 986,
+  "instances_solved_by_at_least_one": 1152,
+  "digest_issues": 0,
+  "timeout_seconds": 600.0,
+  "screened_failure_pairs": 565,
+  "incomplete_pending_pairs": 0,
+  "stop_condition": false
+}

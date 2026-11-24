@@ -1,0 +1,21 @@
+{
+  "created_utc": "2026-10-30T12:57:33.276596+00:00",
+  "profile": "challenge-definitive",
+  "package_version": "0.4.1-heldout-final",
+  "python": "3.12.16 | packaged by Anaconda, Inc. | (main, Oct 26 2026, 20:13:05) [MSC v.1942 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "processor": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+  "algorithms": [
+    "AF-FDD-v0.2.2",
+    "Bai-2021",
+    "Yeh-2024"
+  ],
+  "repetitions": 3,
+  "timeout_seconds": 600.0,
+  "memory_gib": 12.0,
+  "path_limit": 2000000,
+  "conditional_repetitions": true,
+  "shard": 0,
+  "shards": 1,
+  "limit": null
+}
